@@ -9,6 +9,7 @@ content="text/html; charset=iso-8859-1">
 
 <body>
 
+
 <pre>BODY {
 	  color: green;
 }
@@ -71,7 +72,9 @@ P.dato {
 		    font-style: italic;
 			  color: black;
 }
-LI {
+li {
+	position: relative;
+	left: 3%; 
 }
 </pre>
 </body>
