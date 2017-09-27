@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+
+<body style="font-family:boldcourier">
+</body>
+
+<center>
+<h1>Reading Group - 2017 Fall Semester</h1>
+<h2>Machine Learning - Matrix Analysis</h2>
+</center>
+
+<h2>Time & Location</h2>
+<li>4 pm every Sunday</li>
+<li>Whiteboard near the north corridor on 3rd Floor BC Building</li>
+
+<h2>Reference Books</h2>
+<li>Kevin P. Murphy. Machine Learning - A Probabilistic Perspective. MIT Press, 2012.</li>
+<li>Christopher M. Bishop. Pattern Recognition and Machine Learning. Springer, 2013. </li>
+<li>张贤达. 矩阵分析与应用. 清华大学出版社, 2004.</li>
+
+<h2>Schedule & Notes</h2>
+
+<CENTER><TABLE BORDER CELLPADDING=4 WIDTH="95%" >
+<TR BGCOLOR="#666666" TEXT="#000000">
+<TH WIDTH="8%"><FONT COLOR="#FBFFFF">Date</FONT></TH>
+<TH WIDTH="15%"><FONT COLOR="#FBFFFF">Track</FONT></TH>
+<TH WIDTH="30%"><FONT COLOR="#FBFFFF">Content</FONT></TH>
+<TH WIDTH="30%"><FONT COLOR="#FBFFFF">Reference</FONT></TH>
+<TH WIDTH="12%"><FONT COLOR="#FBFFFF">Notes</FONT></TH>
+</TR>
+
+
+
+{% for data in site.data.notes %}
+<TR>
+<TD ALIGN=CENTER>{{data.date}}</TD>
+<TD ALIGN=CENTER>{{data.track}}</TD>
+<TD ALIGN=CENTER>{{data.content}}</TD>
+<TD ALIGN=CENTER>{{data.reference}}</TD>
+{% if data.url %}
+<TD ALIGN=CENTER><a href="{{site.baseurl}}/{{data.url}}" target="_blank">Note</a></TD>
+{% else %}
+<TD ALIGN=CENTER></TD>
+{% endif %}
+</TR>
+{% endfor %}
+
+
+
+
+
+

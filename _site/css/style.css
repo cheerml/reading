@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>Style sheet</title>
+</head>
+
+<body>
+
+<pre>BODY {
+	  color: green;
+}
+
+P {
+	  font-family: boldcourier;
+	    font-size: 12pt;
+		  display: block;
+				     margin-left: 1em;
+					   margin-right: 2em;
+					     margin-top: 0.3em;
+						   margin-bottom: 0em
+}
+
+A:link { 
+	    color: blue;
+			     text-decoration: none
+  }
+
+A:visited {
+	    color: darkblue;
+			     text-decoration: none
+  }
+
+A:hover {       
+	    text-decoration: underline;
+  }       
+
+H1 {
+	  font-family: boldcourier;
+	    font-size: 24pt;
+		  color: black;
+				   margin-bottom: 0.5em;
+}
+
+H2 {
+	  font-family: boldcourier;
+	    font-size: 18pt;
+		  color: black;
+				   margin-bottom: 0.5em;
+}
+
+H3 {
+	  font-family: boldcourier;
+	    font-size: 14pt;
+		  color: black;
+				   margin-left: 0.8em;
+				     margin-top: 0.5em;
+					   margin-bottom: 0.5em;
+}
+
+HR {
+	  margin-top: 0em;
+}
+
+P.dato {
+	  margin-top: -0.3em;
+	    font-size: 7pt;
+		  margin-left: 0em;
+		    font-style: italic;
+			  color: black;
+}
+LI {
+}
+</pre>
+</body>
+</html>
