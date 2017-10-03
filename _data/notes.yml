@@ -10,12 +10,12 @@
   track: Machine Learning
   content: Basis of ML, Probability distribution
   reference: Ch1, Ch2
-  url: 
+  url: /doc/Probability1.pdf 
 
 - 
   date: 2017.10.08
-  track:
-  content: 
-  reference: 
+  track: Machine Learning
+  content: Probability distribution
+  reference: PRML2.1 - PRML2.3
   url: 
 
